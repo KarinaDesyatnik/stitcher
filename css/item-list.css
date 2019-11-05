@@ -1,0 +1,6 @@
+.item-list .col-md-4 img, .item-list .col-md-12 img{
+	width: 100%;
+}
+.item-list .col-md-4, .item-list .col-md-12{
+	margin-bottom: 27px;
+}

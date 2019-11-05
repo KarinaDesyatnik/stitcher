@@ -1,0 +1,114 @@
+.dd-selected,  .dd-option{
+	padding: 0px !important;
+	color: #d93d88;
+	font-weight: 500 !important;
+	max-height: 25px !important;
+	padding-left: 5px !important;
+}
+.dd-options {
+	max-width: 65px !important;
+}
+.dd-option li {
+	position: relative !important;;
+}
+
+.dd-selected label {
+	line-height: 1 !important;
+	padding-left: 0px;
+	position: absolute;
+	top: 0px !important;;
+
+}
+.dd-select {
+	border: none !important;
+	position: relative;
+	top: 2px;
+	background: transparent !important;
+
+}
+.dd-select, .dd-container {
+	width: 65px !important;
+	height: 25px !important;
+}
+.dd-option-image, .dd-selected-image {
+	top: 4px !important;;
+}
+.dd-option-image.dd-image-right,  .dd-selected-image.dd-image-right {
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+	top: 2.5px !important;
+	right: 5px;
+	position: relative;
+}
+.dd-selected .dd-option-image.dd-image-right,  .dd-selected-image.dd-image-right {
+	top: 0 !important;
+}
+.dd-pointer {
+	right: -5px !important;
+}
+.dd-select .dd-pointer-down {
+	position: absolute;
+	top: -1px !important;
+	z-index: 5;
+	right: -10px !important;
+	margin-top: 0 !important;
+	border: none !important;
+}
+.dd-select .dd-pointer-up {
+	z-index: -1;
+	margin-top: 0 !important;
+	border: none !important;
+}
+.dd-pointer-down {
+	z-index: -1;
+}
+.dd-pointer-down:before
+{
+	content: url('../img/header-images/arrow-down.svg');
+	right: 0px;
+	top: -2px;
+	position: absolute;
+}
+.header__deliver .title {
+	position: relative;
+	top: -2px;
+}
+.header__deliver {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	text-transform: uppercase;
+	color: #d93d88;	
+}
+.header__deliver a {
+	color: #d93d88;
+	font-weight: 500;
+	text-decoration: none;
+}
+.header__top-row {
+	padding: 5px 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	width: 760px;
+}
+.header__deliver {
+	padding-left: 30px;
+}
+.header__deliver .header__wrapper {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.header__deliver .title {
+	margin-right: 4px;
+}

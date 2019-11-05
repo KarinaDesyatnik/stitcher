@@ -1,0 +1,178 @@
+.btn-menu {
+	position: absolute;
+	right: 15px;
+	top: 0;
+	display: none;
+}
+.btn-menu .btn-row {
+	width: 30px;
+	height: 4px;
+	margin-bottom: 3px;
+	background: #d93d88;
+	cursor: pointer;
+	
+}
+.btn-menu.active .btn-row:nth-child(2) {
+	display: none;
+}
+.btn-menu.active .btn-row:last-child {
+	-webkit-transform: rotate(45deg);
+	    -ms-transform: rotate(45deg);
+	        transform: rotate(45deg);
+}
+.btn-menu.active .btn-row:first-child {
+	-webkit-transform: rotate(-45deg);
+	    -ms-transform: rotate(-45deg);
+	        transform: rotate(-45deg);
+	position: relative;
+	top: 7px;
+}
+.menu-wrapper {
+	/*border-bottom: 4px solid #d93d88;*/
+	margin-top: 28px;
+	position: relative;
+	z-index: 5;
+	
+}
+.menu-wrapper:after {
+	content: '';
+	height: 3.5px;
+	width: 100%;
+	background: #d93d88;
+	position: absolute;
+	bottom: 0px;
+	z-index: 0;
+
+}
+.menu-wrapper .container {
+	position: relative;
+}
+.header__menu ul{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	margin: 0;
+	position: relative;
+	z-index: 99;
+	
+}
+.header__menu ul li {	
+	padding-bottom: 14px;
+	/*position: relative;*/
+	padding: 0 4px;
+	top: 4px;
+	margin: 0px 3px;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+.header__menu ul li .menu-link {
+	display: block;
+	padding-bottom: 14px;
+	color: #4d4d4d;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	font-size: 18px;
+
+}
+.header__menu ul li:hover {	
+	background: #fff;
+}
+.header__menu ul li:hover .menu-link {
+	border-bottom: 4px solid #1ea199;
+	padding-bottom: 10px;
+	text-decoration: none;
+}
+
+.sub-menu {
+	position: absolute;
+	top: 100%;
+	width: 100%;
+	-webkit-box-shadow: 1px 4px 6px rgba(0, 0, 0, .3);
+	        box-shadow: 1px 4px 6px rgba(0, 0, 0, .3);
+	padding: 30px;
+	width: 1140px;
+	/*display: none;*/
+	left: 0;
+	background: #fff;
+	z-index: 9999;
+}
+.sub-menu a {
+	color: #000;
+}
+
+.sub-title {
+	font-weight: 700;
+	color: #d93d88;
+	padding-bottom: 13px;
+	margin-bottom: 18px;
+	border-bottom: 2px solid #e1e1e1;
+
+}
+.sub-menu a {
+	padding: 4px 2px;
+	display: block;
+}
+.sub-menu a:hover {
+	background: #d2eceb;
+	color: #1ea199;
+}
+/*.sub-menu__needlecrafts li{
+	display: block;
+}
+.sub-menu__needlecrafts {
+	flex-direction: column;
+}*/
+.sub-menu__needlecrafts li{
+	width: 100%;
+	}
+.sub-menu__needlecrafts	ul {
+	flex-direction: column;
+}
+.sub-menu__needlecrafts .test {
+	width: 100%;
+}
+
+.sub-menu__needlecrafts-category {
+	left: 110px;
+	top: 0px;
+	box-shadow: none;
+	width: calc(100% - 110px);
+	display: none;
+	position: absolute;
+	background: #fff;
+	padding-left: 15px;
+}
+
+.sub-menu__needlecrafts {
+	min-height: 750px;
+	
+}
+/*.sub-menu__needlecrafts:first-child .sub-menu__needlecrafts-category {
+	display: block;;
+}
+*/
+.sub-menu {
+	display: none;
+}
+.sub-title__needlecrafts {
+	border-bottom: none;
+}
+.sub-menu__needlecrafts-category--first {
+	display: block;
+}
+.menu-item__needlecrafts a:hover{
+	background: transparent; 
+	text-decoration: none;
+}
+/*.needlecrafts-link:first-child {
+	margin-top: 56px;
+}*/
+
+/*.menu-item__needlecrafts .needlecrafts-link:after {
+	content: '>';
+	height: 10px;
+	padding-left: 10px;
+}*/

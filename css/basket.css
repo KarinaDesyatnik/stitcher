@@ -1,0 +1,246 @@
+.basket-content {
+	margin-top: 30px;
+}
+.basket__header {
+	margin-bottom: 30px;
+}
+.basket__item-title {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 15px;
+
+}
+.basket__item-title-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.basket__item-ssn {
+	color: #aaaaaa;
+}
+.basket-price {
+	font-size: 20px;
+	color: #d93d88;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	
+}
+.basket-price-column {
+	display: flex; 
+	justify-content: center;
+	align-items: center;
+}
+.basket--align-center {
+	text-align: center;
+}
+.basket .col-lg-3 {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.basket .product-description__counter {
+	/*top: 20px;*/
+	position: static;
+	margin-left: 0;
+	margin-right: 0;
+}
+.basket-counter-column {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.basket__subtotal {
+	font-size: 20px;
+    
+}
+.basket__subtotal-column {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.basket__item {
+	position: relative;
+}
+.basket__close-item {
+	position: absolute;
+	right: 20px;
+	top: 50%;
+	cursor: pointer;
+	transform: translate(0%, -50%);
+}
+.bascet__product-image {
+	width: 100%;
+}
+.basket__item {
+	padding-top: 4px;
+	padding-bottom: 4px;
+	border-bottom: 1px solid #f2f2f2;
+}
+.basket__item:last-child {
+	border-bottom: none;
+}
+.basket__footer-button {
+	background: #4d4d4d;
+	text-align: center;
+	color: #fff;
+	font-family: 'Roboto Slab', serif;
+	padding: 13px 17px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+.basket__footer-button a {
+	color: #fff;
+	font-family: 'Roboto Slab', serif;
+	text-decoration: none;
+	font-weight: 700;
+
+}
+.basket__footer-button--green {
+	background: #4db139;
+	box-shadow: inset 1px -10px 6px rgba(0, 0, 0, .1);
+}
+.basket__footer {
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+.basket__continue-shopping,
+.basket__clear {
+	padding-right: 0px;
+
+}
+.basket__clear .basket__footer-button {
+	min-width: 160px;
+	font-weight: 700;
+}
+.basket__trastpilot .trastpilot__title{
+	display: inline-block;
+}
+.basket__trastpilot .stars-big-wrapper {
+	display: inline-block;
+	margin: 0 13px;
+}
+.basket__trastpilot .trastpilot__link {
+	display: inline-block;
+	position: relative;
+	top: -7px;
+}
+.basket__trastpilot .trustpilot-text {
+	display: inline-block;
+	margin-left: 30px;
+}
+.basket__trastpilot {
+	text-align: center;
+}
+.basket__trastpilot {
+	margin-bottom: 44px;
+}
+.payment-wrapper__title {
+	text-transform: uppercase;
+	color: #4d4d4d;
+	font-weight: 700;
+	display: inline-block;
+	margin-right: 10px;
+}
+.payment-wrapper__logos-wrapper {
+	display: inline-block;
+	
+}
+.payment-wrapper__logos-wrapper img{
+	padding: 0px 4px;
+}
+.basket__payment-wrapper {
+	padding-top: 40px;
+}
+.basket__item-content {
+	padding: 0;
+}
+.basket__item-content .basket__footer-button {
+	margin-top: 14px;
+}
+.basket__item-content .row {
+	max-width: 95%;
+	margin: 0 auto;
+}
+.basket__item-content .row .col-8,
+.basket__item-content .row .col-4 {
+	padding-right: 0;
+	padding-left: 10px;
+}
+.bascet__sidebar-footer {
+	border-top: 1px solid #e1e1e1;
+	padding-top: 15px;
+}
+.basket__sidebar-title {
+	font-size: 20px;
+	font-weight: 700;
+}
+.basket__sidebar-value {
+	font-size: 20px;
+	font-weight: 700;
+	color: #d93d88;
+}
+.basket__item-content-row {
+	padding-bottom: 10px;
+}
+.basket__item-content {
+	padding-top: 13px;
+}
+
+.filter__radio-wrapper .label-title {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1;
+	color: #4d4d4d;
+
+}
+.filter__radio-wrapper .sidebar-delivery-price {
+	font-size: 20px;
+	font-weight: 700;
+	color: #d93d88;
+
+}
+.filter__radio-wrapper .radio-wrapper {
+	
+}
+.filter__text-label {
+	padding-right: 0;
+}
+.filter__radio-wrapper {
+	display: flex;
+	align-items: center;
+}
+
+
+.filter__text-label {
+	margin-bottom: 0;
+}
+
+.filter__radio-wrapper {
+	max-width: 100%;
+	padding: 10px 0;
+}
+.filter__radio-wrapper {
+	margin-left: 0;
+	cursor: pointer;
+}
+.filter__content-basket {
+	padding: 0;
+}
+.label-sub-title {
+	font-size: 16px;
+	cursor: pointer;
+}
+.filter__radio-wrapper:hover {
+	background: #fff;
+}
+.basket__footer {
+	margin-left: 15px;
+}
+.basket-content-title span {
+	font-family: 'Barlow Condensed', sans-serif;
+	font-weight: 500;
+	font-size: 30px;
+}
+.basket__item-title {
+	line-height: 1.2;
+}

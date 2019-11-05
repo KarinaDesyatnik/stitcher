@@ -1,0 +1,213 @@
+/**-----popup style-----**/
+.mfp-wrap .mfp-content{
+	width: 670px;
+	background-color: #fff;
+	padding: 30px 15px;
+	margin: 10px auto;
+}
+.popup__mailing .checkbox-wrapper {
+	position: static;
+}
+.popup__mailing {
+	margin-left: 2%;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+.popup__mailing .checkbox-label {
+	margin-bottom: 0;
+
+}
+.popup__text-label {
+	font-size: 14px;
+	padding-left: 5px;
+}
+.popup__mailing .checkbox-label {
+
+}
+.popup__header {
+	display: flex;
+	justify-content: space-between;
+}
+.popup__title,
+.popup__product-title {
+	font-size: 30px;
+}
+.popup__product-title {
+	min-width: 320px;
+	margin-bottom: 35px;
+}
+.popup__header-right {
+	padding-right: 5px;
+	width: 73%;
+
+}
+.popup__header-left {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	width: 27%;
+}
+.popup__header-left img {
+	width: 100%
+}
+.popup__rules-title {
+	font-size: 20px;
+}
+.pupup__rules-item {
+	font-size: 14px;
+	margin-bottom: 10px;
+	
+}
+.popup__rules-sub-title {
+	margin-bottom: 10px;
+}
+.popup__rules-items {
+	list-style: inside
+	
+}
+.popup__label {
+	display: block;
+	font-size: 20px;
+	margin-bottom: 5px;
+}
+.popup__form input,
+.popup__form textarea {
+	width: 98%;
+	background: #f2f2f2;
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid #e1e1e1;
+	padding: 5px 15px;
+	margin-left: 2%;
+	outline: none;
+}
+.popup__form textarea {
+	height: 100px;
+	padding: 15px 15px;
+}
+.popup__example {
+	font-size: 14px;
+	font-style: italic;
+	margin-left: 2%;
+}
+.popup__form-item {
+	margin-bottom: 5px;
+}
+.popup__form-item--submit {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 25px;
+	
+}
+.popup__form-item--submit input {
+	max-width: 250px;
+	background: #4db139;
+    box-shadow: inset 1px -10px 6px rgba(0, 0, 0, .1);
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    color: #fff;
+}
+.popup__form .checkbox:checked + .checkbox-label:before {
+	left: 0px;
+	top: -10.8px;
+}
+.popup__mark {
+	font-size: 12px;
+	position: relative;
+	top: -10px;
+}
+.popup__basket-item {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	margin: 10px auto;
+
+}
+.popup__basket-item .product-description__counter {
+	position: static;
+}
+.popup__basket-item .basket__item-title {
+	max-width: 300px;
+	align-self: flex-start;
+}
+.popup__counter-wrapper {
+	text-align: center;
+}
+.popup__basket-item .product-description__counter {
+	margin-left: 0;
+	margin-right: 0;
+}
+.popup-basket__item-title {
+	font-family: 'Roboto Slab', serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.wrapper__add-to-basket {
+	
+}
+.popup__update-btn {
+	background: #4d4d4d;
+	padding: 5px 5px;
+	border-radius: 4px;
+	margin-top: 10px;
+
+}
+.popup__update-btn a {
+	color: #fff;
+	font-family: 'Roboto Slab', serif;
+	text-transform: uppercase;
+
+}
+.wrapper__add-to-basket .basket__subtotal{
+	color: #d93d88;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	font-size: 20px;
+}
+.basket-popup__footer {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 35px;
+
+}
+.basket-popup__footer .popup__basket__footer-button {
+	background: #4d4d4d;
+	padding: 10px 20px;
+	border-radius: 4px;
+}
+.basket-popup__footer .popup__basket__footer-button--green {
+	background: #4db139;
+    box-shadow: inset 1px -10px 6px rgba(0, 0, 0, .1);
+    margin-left: 10px;
+}
+.basket-popup__footer .popup__basket__footer-button a {
+	font-family: 'Roboto Slab', serif;
+	color: #fff;
+	text-decoration: none;
+}
+.popup__add-to-basket-header {
+	display: flex;
+	align-items: center;
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+.popup__add-to-basket-header .text{
+	margin-left: 15px;
+
+}
+.basket-popup__footer  .popup__basket__footer-button--green img {
+margin-right: 10px;
+}
+.popup__wishlist-item {
+	justify-content: flex-start;
+}
+.popup__wishlist-item .popup-basket__item-title {
+	margin-left: 10px;
+}
+.wishlist-popup__footer {
+	justify-content: space-between;
+	align-items: center;
+	font-size: 20px;
+}
+/**-----end popup style-----**/

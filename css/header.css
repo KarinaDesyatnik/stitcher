@@ -1,0 +1,199 @@
+.header__logo {
+	position: relative;
+}
+.header__line {
+	position: absolute;
+	top: 58px;
+	width: 	100%;
+	background: url('../img/header-images/line-path.png');
+	height: 7px;
+	background-repeat: repeat;
+}
+.header__top-header {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.header__top-row__menu ul li {
+	display: inline-block;
+}
+.header__top-row__menu ul li a {
+	text-decoration: underline;
+	color: #2e82d1;
+	padding: 0 11px;
+}
+.header__call {	
+	background: #1ea199;
+	border-radius: 4px;
+}
+.header__call a {
+	color: #fff;
+	height: 100%;
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	padding: 4px 13px;
+	text-decoration: none
+}
+.header__call img {
+	padding: 0 7px
+}
+.header__search-cart-row {
+	padding-top: 25px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.header__search {
+	min-width: 445px;
+	height: 40px;
+	background: #d93d88;
+	padding: 2px;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 1px 4px 6px rgba(0, 0, 0, .3);
+	        box-shadow: inset 1px 4px 6px rgba(0, 0, 0, .3);	
+}
+.header__search form {
+	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.header__search input[type='submit'] {
+	min-width: 100px;	
+	height: 100%;
+	font-family: 'Roboto Slab', serif;
+	color: #d93d88;
+	font-weight: 700;
+	background: #fff;
+	border: none;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 1px -10px 6px rgba(215, 215, 215, .5);
+	        box-shadow: inset 1px -10px 6px rgba(215, 215, 215, .5);
+	cursor: pointer;
+}
+.header__search input[type='search'] {
+	width: 100%;
+	width: 338px;
+	height: 100%;
+	border: none;
+	background: transparent;
+	padding: 0px 10px;
+	font-size: 16px;
+	font-family: 'Roboto Slab', serif;
+	color: #fff;
+	outline: none;
+
+}
+.header__search input::-webkit-input-placeholder {
+	color: #e589b1
+}
+.header__search input::-moz-placeholder {
+	color: #e589b1
+}
+.cart{
+	
+	padding-right: 15px;
+}
+.cart a {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	color: #d93d88;
+	text-decoration: none;
+}
+.cart .amount {
+	padding-left: 12px;
+	padding-right: 19px;
+}
+.header__services-wrapper {
+	padding: 15px 0;
+	background: #e1e1e1;
+	margin-top: 2px;
+}
+.trustpilot {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.trustpilot .green-star{
+	height: 21px;
+	width: 21px;
+	margin-right: 2px;
+	position: relative;
+	top: -2px;
+	left: -2px;
+}
+.stars {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin-left: 15px;
+}
+.stars .stars__wrapper {
+	height: 17px;
+	width: 17px;
+	background: #00b67a;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	margin-right: 1px;
+	position: relative;
+}
+.stars .stars__wrapper img {
+	height: 11px;
+	width: 11px;
+	position: absolute;
+	top: 3px;
+	left: 3px;
+}
+.services {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	padding: 0 50px;
+}
+.services__item {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	border-right: 1px dotted #ababab;
+	padding: 0 23px;
+}
+.services__item:last-child {
+	border-right: none;
+}
+.services__item .icon {
+	margin-right: 9px;
+}
