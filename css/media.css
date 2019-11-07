@@ -597,6 +597,7 @@
 
 
 
+
   
   
 
@@ -1344,12 +1345,13 @@
   justify-content: flex-start;
   align-items: flex-start;
 }
+.header .header__popular-search {
+  top: 38px;
+}
+.header .popular-search-content {
+  padding-left: 0;
+}
 
-
-/*.popup__header-right,
-.popup__header-left {
-  width: 50%;
-}*/
 
 
  

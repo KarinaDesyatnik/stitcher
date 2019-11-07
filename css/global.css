@@ -152,3 +152,47 @@ h2 {
 }
 
 /*---- end radio style ----*/
+
+/*----------start search popup--------*/
+.header__popular-search {
+	background: #fff;
+	width: 100%;
+	position: absolute;
+	top: 44px;
+	left: 0;
+	z-index: 9999;
+	padding: 10px 10px;
+	border-radius: 4px;
+	display: none;
+	-webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, .3);
+	        box-shadow: 0px 0px 3px rgba(0, 0, 0, .3);
+}
+.header__popular-search.active {
+	display: block;
+}
+.header__search {
+	position: relative;
+
+}
+.popular-search-title {
+	font-size: 20px;
+	font-weight: 700;
+	padding: 10px 0;
+	border-bottom: 1px solid #4d4d4d;
+	margin-bottom: 10px;	
+}
+.search-resalt {
+	text-decoration: underline;
+}
+.popular-search-content {
+	padding-left: 10px;
+}
+.popular-search-product img {
+	max-width: 50px;
+	margin-right: 10px
+}
+.popular-search-product {
+	display: flex;
+	align-items: center;
+}
+/*----------end search popup--------*/
