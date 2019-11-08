@@ -587,11 +587,14 @@
   .wrapper__add-to-basket .basket__subtotal {
     margin-top: 0;
   }
-  .basket__footer-button--green {
+  .basket__footer-button--main {
     display: none;
   }
   .basket__clear {
     padding-right: 15px;
+  }
+  .basket__footer-button-main {
+    display: none;
   }
 
 
@@ -1200,7 +1203,7 @@
 .basket__footer {
   margin-left: 0;
 }
-.basket__footer-button--green {
+.basket__footer-button-main {
   display: none;
 }
 .product {
