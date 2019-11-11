@@ -771,6 +771,9 @@
 .thanks-page__content .thanks-page__content-item-img {
   width: 100px;
   height: 100px;
+  min-width: 100px;
+  min-height: 100px;
+
 }
 .checkout__sidebar-item.active .filter__content{
   display: block;
@@ -2511,6 +2514,8 @@
 .thanks-page__content .thanks-page__content-item-img {
   width: 80px;
   height: 80px;
+  min-width: 80px;
+  min-height: 80px;
 }
 .thanks-page__text-wrapper {
   margin-left: 10px;
