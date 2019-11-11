@@ -772,6 +772,12 @@
   width: 100px;
   height: 100px;
 }
+.checkout__sidebar-item.active .filter__content{
+  display: block;
+}
+.checkout__sidebar-item .filter__content{
+  display: none;
+}
 
 
 }
