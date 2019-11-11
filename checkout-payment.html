@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stitcher</title>
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:400,500,700|Roboto+Slab:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/deliver-dropdown.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/item-list.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/category.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/basket.css">
+    <link rel="stylesheet" href="css/checkout.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <!----------start header----------->
+    <header class="header header--checkout">
+        <div class="header__line"></div>
+        <div class="container header__container header__checkout-container">
+            <div class="header__top-header">
+                <div class="header__logo">
+                    <a href="index.html">
+                        <img src="img/header-images/logo.png" alt="">
+                    </a>
+                </div>              
+            </div>
+            <div class="header__checkout">
+                <div class="header__ssl">
+                <a href="#">
+                    <img src="img/checkout-images/ssl-logo.png" alt="">
+                </a> 
+                </div>
+                <div class="header__call-wrapper"> 
+                    <div class="call-wrapper__title"> 
+                        NEED HELP?  
+                    </div>
+                    <a href="#">CALL US ON  +44 (0)161 464 7310</a>
+                </div>
+            </div>
+        </div>
+      
+       
+    </header>
+    <!------------end header---------->
+
+<!-- ----------------start checkout ------------>
+<section class="checkout">
+    <div class="container">
+        <h1 class="checkout__title">
+        Secure Checkout
+        </h1>
+    </div>
+         <div class="checkout__steps">
+        <div class="checkout__step-item checkout__step-item--active">1
+            <div class="checkout__step-title">login</div>
+        </div>
+        <div class="checkout__step-item checkout__step-item--active">2
+        <div class="checkout__step-title">PERSONAL DETAILS</div>
+        </div>
+        <div class="checkout__step-item checkout__step-item--active">3
+        <div class="checkout__step-title">PAYMENT</div>
+        </div>
+        <div class="checkout__step-item">4
+            <div class="checkout__step-title">Finish</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="checkout__payment">
+            <div class="row">
+                <div class="col-lg-9">
+                    <h2 class="checkout__sub-title about-category__title">  <div class="about-category__line"></div><span>Payment</span></h2>
+
+            <div class="filter__item checkout__payment-item active">
+                        <div class="filter__item-title filter__title ">
+                            GIFT VOUCHER
+                        </div>
+                        <div class="filter__content basket__item-content">
+                           <form action="" class="personal-details__form payment__form">
+                                <div class="form-row">
+                        <label for="">Gift vaucher</label>
+<!----------1. add a class "success" to "checkout__input-wrapper" to activate the state of successful completed input
+    2. add a class "error" to "checkout__input-wrapper" to activate the state of error completed input
+    ---------->
+                        <div class="checkout__input-wrapper checkout__input-wrapper--email gift-vaucher-input-wrapper">
+                            <input type="text" class="gift-vaucher-input">
+                           
+                            <div class="error-prompt">
+                                Pleas enter a valid gift vaucher
+                            </div>
+                            <div class="checkout__input-prompt">
+                                if you have a gift voucher you are eligible for a discount
+                            </div>
+                        </div>
+                         <input type="submit" value="APPLY VOUCHER">
+                    </div>
+                           </form>               
+                            
+                           
+
+                           
+                        </div>
+
+                 
+                    </div>
+
+
+            <div class="filter__item checkout__payment-item">
+                        <div class="filter__item-title filter__title ">
+                            Payment
+                        </div>
+                        <div class="filter__content basket__item-content">
+
+                          <div class="payment-metod">
+                    <div class="tabs">
+                        <div class="tab">PayPal
+                            <img src="img/checkout-images/pay-pal.png" alt="">
+                        </div>
+                        <div class="tab">Credit or Debit Card</div>
+                    </div>
+                    <div class="tab_content">
+                        <div class="tab_item">
+                             <form action="" class="personal-details__form payment-method__form">
+                  <div class="pay-pal-title">
+                      Click PAY NOW to sign in to your PayPal account to complete the purchase.
+                  </div>
+                        <div class="payment-method__footer">
+                             <button class="checkout__button payment-method__button" type="submit">
+                       
+                         <a href="checkout-finish.html">
+                             PAY NOW
+                        </a>                     
+                    </button>
+                    
+                        </div>        
+                  
+                                </form>
+                        </div>
+                        <div class="tab_item">
+                             <form action="" class="personal-details__form payment-method__form">
+                    <div class="form-row">
+                        <label for="">Name on card</label>
+<!----------1. add a class "success" to "checkout__input-wrapper" to activate the state of successful completed input
+    2. add a class "error" to "checkout__input-wrapper" to activate the state of error completed input
+    ---------->
+                        <div class="checkout__input-wrapper">
+                            <input type="text">
+                            <div class="error-prompt">
+                               We need to know the card holder name
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                   
+                     <div class="form-row">
+                        <label for="">Card Number</label>
+<!----------1. add a class "success" to "checkout__input-wrapper" to activate the state of successful completed input
+    2. add a class "error" to "checkout__input-wrapper" to activate the state of error completed input
+    ---------->
+                        <div class="checkout__input-wrapper">
+                            <input type="text">
+                            <div class="error-prompt">
+                              We need to know the long number on the card
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="form-row-wrapper">
+                        <div class="form-row payment-metod__form-row">
+                        <label for="">Start date <span>(optional)</span>
+                               
+                    </label>
+<!----------1. add a class "success" to "checkout__input-wrapper" to activate the state of successful completed input
+    2. add a class "error" to "checkout__input-wrapper" to activate the state of error completed input
+    ---------->
+                        <div class="checkout__input-wrapper">
+                            <input type="text">
+                            
+                        </div>
+                        
+                    </div>
+                     <div class="form-row payment-metod__form-row">
+                        <label for="">Expiry date</label>
+<!----------1. add a class "success" to "checkout__input-wrapper" to activate the state of successful completed input
+    2. add a class "error" to "checkout__input-wrapper" to activate the state of error completed input
+    ---------->
+                        <div class="checkout__input-wrapper">
+                            <input type="text">
+                            <div class="error-prompt">
+                              We need to know the expiry date
+                            </div>
+                        </div>
+                        
+                    </div>
+                    </div>
+
+                    
+ <div class="form-row-wrapper">
+                     <div class="form-row payment-metod__form-row">
+                        <label for="">Security Code</label>
+<!----------1. add a class "success" to "checkout__input-wrapper" to activate the state of successful completed input
+    2. add a class "error" to "checkout__input-wrapper" to activate the state of error completed input
+    ---------->
+                        <div class="checkout__input-wrapper checkout__input-wrapper--email">
+                            <input type="text">
+                            <div class="error-prompt">
+                               We need to know the card security code
+                            </div>
+                             <div class="checkout__input-prompt">
+                               last three digits on the
+ back of your card
+                            </div>
+                        </div>
+                        
+                    </div>
+                     <div class="form-row payment-metod__form-row">
+                        <label for="">Issue Number</label>
+<!----------1. add a class "success" to "checkout__input-wrapper" to activate the state of successful completed input
+    2. add a class "error" to "checkout__input-wrapper" to activate the state of error completed input
+    ---------->
+                        <div class="checkout__input-wrapper">
+                            <input type="text">
+                            <div class="error-prompt">
+                                We need to know issue number
+                            </div>
+                        </div>
+                        
+                    </div> 
+                    </div>  
+                        <div class="payment-method__footer">
+                             <button class="checkout__button payment-method__button" type="submit">
+                       
+                         <a href="checkout-finish.html">
+                             PAY NOW
+                        </a>                     
+                    </button>
+                    <div class="payment-method__img-wrapper">
+                        <a href="">
+                            <img src="img/checkout-images/visa.png" alt="">
+                        </a>
+                        <a href="">
+                              <img src="img/checkout-images/mastercard.png" alt="">
+                        </a>
+                    </div>
+                        </div>        
+                  
+                                </form>
+                        </div>
+                    </div>
+               
+            </div>              
+                            
+                           
+
+                           
+                        </div>
+
+                    </div>
+                </div>
+                  <div class="col-lg-3">
+               <div class="filter__item basket__sidebar-item">
+                        <div class="filter__item-title filter__title ">
+                            YOUR ORDER
+                        </div>
+                        <div class="filter__content basket__item-content">
+                            <div class="row basket__item-content-row checkout__item-content-row">
+                                <div class="col-8">
+                                   Product
+                                </div>
+                                <div class="col-4">
+                                    Price
+                                </div>
+                            </div>
+                            <div class="row basket__item-content-row checkout__item-content-row">
+                                <div class="col-8">
+                                   <div class="checkout__product-name-wrapper">
+                                      <div class="name">
+                                          1x Standard Product Item
+                                      </div> 
+                                      <div class="ssl">
+                                          SSN: 000000
+                                      </div>
+                                   </div>
+                                </div>
+                                <div class="col-4 checkout__price">
+                                    2.49
+                                </div>
+                            </div>
+                             <div class="row basket__item-content-row checkout__item-content-row">
+                                <div class="col-8">
+                                   <div class="checkout__product-name-wrapper">
+                                      <div class="name">
+                                          1x Standard Product Item
+                                      </div> 
+                                      <div class="ssl">
+                                          SSN: 000000
+                                      </div>
+                                   </div>
+                                </div>
+                                <div class="col-4 checkout__price">
+                                    4.49
+                                </div>
+                            </div>
+                            <div class="checkout__sidebar-footer">
+                                <div class="row basket__item-content-row">
+                                <div class="col-8">
+                                    Subtotal:
+                                </div>
+                                <div class="col-4">
+                                    £47.20
+                                </div>
+                            </div>
+                            <div class="row basket__item-content-row">
+                                <div class="col-8">
+                                    Delivery:
+                                </div>
+                                <div class="col-4">
+                                    £2.49
+                                </div>
+                            </div> 
+                            <div class="row bascet__sidebar-footer">
+                                <div class="col-8">
+                                    <div class="basket__sidebar-title">
+                                        TOTAL:
+                                    </div>
+
+                                </div>
+                                <div class="col-4">
+                                    <div class="basket__sidebar-value">
+                                        £49.69
+                                    </div>
+
+                                </div>
+                            </div>
+                            </div>
+                            
+                            
+                           
+
+                           
+                        </div>
+
+                    </div>
+
+                      <div class="filter__item basket__sidebar-item delivery-sitebar">
+                        <div class="filter__item-title filter__title ">
+                           DELIVERY ADDRESS
+                        </div>
+                        <div class="filter__content basket__item-content">
+                           
+                            <div class="row basket__item-content-row checkout__item-content-row">
+                                <div class="col-12">
+                                   <div class="checkout__product-name-wrapper">
+                                      <div class="name">
+                                         Peter Stewart
+                                      </div> 
+                                      <div class="adress">
+                                          14 Tottenham Court Road
+                                      </div>
+                                      <div class="city">London</div>
+                                      <div class="country">England</div>
+                                      <div class="code">W1T 1JY</div>
+                                      <div class="code">03069 990538</div>
+                                      
+                                   </div>
+                                </div>
+                                 <div class="col-12">
+                                <div class="checkout__sidebar-footer">
+
+                              <a href="checkout-personal-details.html">change delivery address</a>
+                            </div>
+                           </div>
+                            </div>                          
+                        </div>
+        
+                    </div>
+
+              <div class="filter__item basket__sidebar-item">
+                        <div class="filter__item-title filter__title ">
+                           BILLING ADDRESS
+                        </div>
+                        <div class="filter__content basket__item-content">
+                           
+                            <div class="row basket__item-content-row checkout__item-content-row">
+                                <div class="col-12">
+                                   <div class="checkout__product-name-wrapper">
+                                      <div class="name">
+                                         Peter Stewart
+                                      </div> 
+                                      <div class="adress">
+                                          14 Tottenham Court Road
+                                      </div>
+                                      <div class="city">London</div>
+                                      <div class="country">England</div>
+                                      <div class="code">W1T 1JY</div>
+                                      <div class="code">03069 990538</div>
+                                      
+                                   </div>
+                                </div>
+                                 <div class="col-12">
+                                <div class="checkout__sidebar-footer">
+
+                              <a href="checkout-personal-details.html">change billing address</a>
+                            </div>
+                           </div>
+                            </div>                          
+                        </div>
+        
+                    </div>
+
+
+            </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!-- ----------------end checkout ------------>  
+
+<!-- ----------------start footer ------------>
+<footer class="footer-checkout">
+    <div class="container">
+        <div class="footer-checkout__copy">All designs are © copyright of their respective owners. Web site © copyright 1999 - 2019 Stitcher Limited 7672372 </div>
+        <div>We allow for two lines just in case there is additional text that needs to go here.</div>
+    </div>
+</footer>
+<!-- ----------------end footer ------------>  
+  
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.ddslick.min.js"></script>
+    <script src="js/product-galery.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/deliver-dropdown.js"></script>
+    <script src="js/slider-initialization.js"></script>
+    <script src="js/filter.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/range-slider.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/checkout.js"></script>
+    <script src="js/basket.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/touch-punch.min.js"></script>
+    <script src="js/global.js"></script>
+
+</body>
+
+</html>

@@ -64,116 +64,94 @@
         Secure Checkout
         </h1>
     </div>
-    <div class="checkout__steps">
+         <div class="checkout__steps">
         <div class="checkout__step-item checkout__step-item--active">1
             <div class="checkout__step-title">login</div>
         </div>
-        <div class="checkout__step-item">2
+        <div class="checkout__step-item checkout__step-item--active">2
         <div class="checkout__step-title">PERSONAL DETAILS</div>
         </div>
-        <div class="checkout__step-item">3
+        <div class="checkout__step-item checkout__step-item--active">3
         <div class="checkout__step-title">PAYMENT</div>
         </div>
-        <div class="checkout__step-item">4
+        <div class="checkout__step-item checkout__step-item--active">4
             <div class="checkout__step-title">Finish</div>
         </div>
     </div>
     <div class="container">
-        <div class="login-register">
-            <div class="login-register__item ">
-                <h2 class="checkout__sub-title about-category__title">
-                    <div class="about-category__line"></div>
-                        <span>Guest Custome</span>
-                </h2>
-                <form action="">
-                    <div class="form-row">
-                        <label for="">Email Address </label>
-<!----------1. add a class "success" to "checkout__input-wrapper" to activate the state of successful completed input
-    2. add a class "error" to "checkout__input-wrapper" to activate the state of error completed input
-    ---------->
-                        <div class="checkout__input-wrapper">
-                            <input type="email">
-                            <div class="error-prompt">
-                                We need on email adress to send your order confirmation to
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="checkout__prompt">
-                        <div>
-                            Continue to checkout without signing in. You will have the opportunity to register during checkout.
-                        </div>
-                    </div>
-                    <button class="checkout__button" type="submit">
-                        <a href="checkout-personal-details.html">
-                             CONTINUE AS A GUEST
-                        </a>
-                       
-                    </button>
-
-                </form>
+        <div class="thanks-page">
+            <div class="thanks-page__header">
+                <div class="thanks-page__title">
+                Thank You Peter
             </div>
-            <div class="login-register__item login-register__item--login">
-                <h2 class="checkout__sub-title about-category__title">  <div class="about-category__line"></div><span>Returning Customer</span></h2>
-                <form action="">
-                    <div class="form-row">
-                        <label for="">Email Address </label>
-<!----------1. add a class "success" to "checkout__input-wrapper" to activate the state of successful completed input
-    2. add a class "error" to "checkout__input-wrapper" to activate the state of error completed input
-    ---------->
-                        <div class="checkout__input-wrapper">
-                            <input type="email">
-                            <div class="error-prompt">
-                                We need on email adress to send your order confirmation to
-                            </div>
-                        </div>
-                        
-                    </div>
-                     <div class="form-row">
-                        <label for="">Password</label>
-<!----------1. add a class "success" to "checkout__input-wrapper" to activate the state of successful completed input
-    2. add a class "error" to "checkout__input-wrapper" to activate the state of error completed input
-    ---------->
-                        <div class="checkout__input-wrapper">
-                            <input type="email">
-                            <div class="error-prompt">
-                                We need on email adress to send your order confirmation to
-                            </div>
-                        </div>
-                        
-                    </div>
-
-                     <div class="forgot-password">
-                    <a href="#" class="">
-                        Forgot password?
-                    </a>
+            <div class="thanks-page__sub-title">
+                 Your order number is <span>1234567890</span>. We’ll get started on processing it straight away. </div>
+             <div class="thanks-page__sub-title">   
+You should receive an order confirmation email within the next few minutes. If you have any questions please contact us.
+            </div>
+           
+            </div>
+            <div class="thanks-page__content">
+                <div class="thanks-page__content-title">
+                     Tell your friends and enjoy 15% off your next order!
                 </div>
-                    <button class="checkout__button" type="submit">
-                       
-                         <a href="checkout-personal-details.html">
-                             sign in
-                        </a>
-                       
-                       
-                       
-                    </button>
+               <div class="thanks-page__content-sub-title">
+                   Let your friends know all about your recent purchase!
+               </div>
+                <div class="form-row">
+                        <label for="">Sharing:</label>
 
-                </form>
+                        <div class="checkout__input-wrapper">
+                            <select name="" id="">
+                                <option value="">
+                                    My Cross Stitch Kit by LUCA-S
+                                </option>
+                                <option value="">
+                                   My Cross Stitch Kit by LUCA-S
+                                </option>
+                                <option value="">
+                                    My Cross Stitch Kit by LUCA-S
+                                </option>
+                            </select>
+                            
+                        </div>
+                        
+                    </div>
+               <div class="thanks-page__content-item">
+                   <img src="img/checkout-images/img.png" alt="" class="thanks-page__content-item-img">
+                   <div class="thanks-page__text-wrapper">
+                       <div class="thanks-page__content-item-title">
+                           I Just bought My Cross Stitch Kit by LUCA-S
+                       </div>
+                       <a href="#">www. stitcher.co.uk</a>
+                       <div class="thanks-page__content-item-text">
+                           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                       </div>
+
+                       
+                   </div>
+               </div>
+               <div class="footer__social-wrapper thanks-page__social-wrapper">
+                        <a href=""><img src="img/footer-images/facebook.svg" alt=""></a>
+                        <a href=""><img src="img/footer-images/pinterest.svg" alt=""></a>
+                        <a href=""><img src="img/footer-images/instagram.svg" alt=""></a>
+                    </div>
             </div>
+            
         </div>
     </div>
+    
+
 </section>
 <!-- ----------------end checkout ------------>  
 
 <!-- ----------------start footer ------------>
-
-        <footer class="footer-checkout">
+<footer class="footer-checkout">
     <div class="container">
         <div class="footer-checkout__copy">All designs are © copyright of their respective owners. Web site © copyright 1999 - 2019 Stitcher Limited 7672372 </div>
         <div>We allow for two lines just in case there is additional text that needs to go here.</div>
     </div>
 </footer>
-  
 <!-- ----------------end footer ------------>  
   
     <script src="js/jquery.min.js"></script>

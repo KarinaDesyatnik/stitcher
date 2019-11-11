@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stitcher</title>
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:400,500,700|Roboto+Slab:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/deliver-dropdown.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/item-list.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/category.css">
+    <link rel="stylesheet" href="css/sidebar.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/product.css">
+    <link rel="stylesheet" href="css/basket.css">
+    <link rel="stylesheet" href="css/checkout.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <!----------start header----------->
+    <header class="header header--checkout">
+        <div class="header__line"></div>
+        <div class="container header__container header__checkout-container">
+            <div class="header__top-header">
+                <div class="header__logo">
+                    <a href="index.html">
+                        <img src="img/header-images/logo.png" alt="">
+                    </a>
+                </div>              
+            </div>
+            <div class="header__checkout">
+                <div class="header__ssl">
+                <a href="#">
+                    <img src="img/checkout-images/ssl-logo.png" alt="">
+                </a> 
+                </div>
+                <div class="header__call-wrapper"> 
+                    <div class="call-wrapper__title"> 
+                        NEED HELP?  
+                    </div>
+                    <a href="#">CALL US ON  +44 (0)161 464 7310</a>
+                </div>
+            </div>
+        </div>
+      
+       
+    </header>
+    <!------------end header---------->
+
+<!-- ----------------start checkout ------------>
+<section class="checkout">
+    <div class="container">
+        <h1 class="checkout__title">
+        Secure Checkout
+        </h1>
+    </div>
+         <div class="checkout__steps">
+        <div class="checkout__step-item checkout__step-item--active">1
+            <div class="checkout__step-title">login</div>
+        </div>
+        <div class="checkout__step-item checkout__step-item--active">2
+        <div class="checkout__step-title">PERSONAL DETAILS</div>
+        </div>
+        <div class="checkout__step-item">3
+        <div class="checkout__step-title">PAYMENT</div>
+        </div>
+        <div class="checkout__step-item">4
+            <div class="checkout__step-title">Finish</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="checkout__personal-details">
+        <div class="row">
+            <div class="col-lg-9">
+                <h2 class="checkout__sub-title about-category__title">  <div class="about-category__line"></div><span>Personal Details</span></h2>
+                <h3 class="checkout-h3">
+                    Delivery address
+                </h3>
+                <form action="" class="personal-details__form">
+                    <div class="form-row">
+                        <label for="">Email Address </label>
+<!----------1. add a class "success" to "checkout__input-wrapper" to activate the state of successful completed input
+    2. add a class "error" to "checkout__input-wrapper" to activate the state of error completed input
+    ---------->
+                        <div class="checkout__input-wrapper checkout__input-wrapper--email">
+                            <input type="email">
+                            <div class="error-prompt">
+                                Pleas enter your email address
+                            </div>
+                            <div class="checkout__input-prompt">
+                                You’ll receive your order information to this address
+                            </div>
+                        </div>
+                        
+                    </div>
+                     <div class="form-row">
+                        <label for="">Title</label>
+<!----------1. add a class "success" to "checkout__input-wrapper" to activate the state of successful completed input
+    2. add a class "error" to "checkout__input-wrapper" to activate the state of error completed input
+    ---------->
+                        <div class="checkout__input-wrapper">
+                            <input type="text">
+                            <div class="checkout__optional">
+                               (optional)
+                            </div>
+                        </div>
+                        
+                    </div>
+                     <div class="form-row">
+                        <label for="">First name</label>
+<!----------1. add a class "success" to "checkout__input-wrapper" to activate the state of successful completed input
+    2. add a class "error" to "checkout__input-wrapper" to activate the state of error completed input
+    ---------->
+                        <div class="checkout__input-wrapper">
+                            <input type="text">
+                            <div class="error-prompt">
+                               Pleas enter your first name
+                            </div>
+                        </div>
+                        
+                    </div>
+                     <div class="form-row">
+                        <label for="">Last name</label>
+<!----------1. add a class "success" to "checkout__input-wrapper" to activate the state of successful completed input
+    2. add a class "error" to "checkout__input-wrapper" to activate the state of error completed input
+    ---------->
+                        <div class="checkout__input-wrapper">
+                            <input type="text">
+                            <div class="error-prompt">
+                               Pleas enter your last name
+                            </div>
+                        </div>
+                        
+                    </div>
+                     <div class="form-row">
+                        <label for="">Post code</label>
+<!----------1. add a class "success" to "checkout__input-wrapper" to activate the state of successful completed input
+    2. add a class "error" to "checkout__input-wrapper" to activate the state of error completed input
+    ---------->
+                        <div class="checkout__input-wrapper">
+                            <input type="text">
+                            <div class="error-prompt">
+                                 Pleas enter a valid postcode
+                            </div>
+                        </div>
+                        
+                    </div>
+                     <div class="form-row">
+                        <label for="">Address Line 1</label>
+<!----------1. add a class "success" to "checkout__input-wrapper" to activate the state of successful completed input
+    2. add a class "error" to "checkout__input-wrapper" to activate the state of error completed input
+    ---------->
+                        <div class="checkout__input-wrapper">
+                            <input type="text">
+                            <div class="error-prompt">
+                                 Pleas enter a first line of your address
+                            </div>
+                        </div>
+                        
+                    </div>
+                     <div class="form-row">
+                        <label for="">Address Line 2</label>
+<!----------1. add a class "success" to "checkout__input-wrapper" to activate the state of successful completed input
+    2. add a class "error" to "checkout__input-wrapper" to activate the state of error completed input
+    ---------->
+                        <div class="checkout__input-wrapper">
+                            <input type="text">
+                            <div class="checkout__optional">
+                               (optional)
+                            </div>
+                        </div>
+                        
+                    </div>
+                     <div class="form-row">
+                        <label for="">City</label>
+<!----------1. add a class "success" to "checkout__input-wrapper" to activate the state of successful completed input
+    2. add a class "error" to "checkout__input-wrapper" to activate the state of error completed input
+    ---------->
+                        <div class="checkout__input-wrapper">
+                            <input type="text">
+                            <div class="error-prompt">
+                                 Pleas enter your city
+                            </div>
+                        </div>
+                        
+                    </div>
+                     <div class="form-row">
+                        <label for="">Country</label>
+<!----------1. add a class "success" to "checkout__input-wrapper" to activate the state of successful completed input
+    2. add a class "error" to "checkout__input-wrapper" to activate the state of error completed input
+    ---------->
+                        <div class="checkout__input-wrapper">
+                            <select name="" id="">
+                                <option value="">
+                                    UNITED KINGDOM
+                                </option>
+                                <option value="">
+                                    UNITED KINGDOM
+                                </option>
+                                <option value="">
+                                    UNITED KINGDOM
+                                </option>
+                            </select>
+                            <div class="error-prompt">
+                               Pleas choose your country
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="form-row">
+                        <label for="">Phone number</label>
+<!----------1. add a class "success" to "checkout__input-wrapper" to activate the state of successful completed input
+    2. add a class "error" to "checkout__input-wrapper" to activate the state of error completed input
+    ---------->
+                        <div class="checkout__input-wrapper checkout__input-wrapper--phone">
+                            <input type="text">
+                             <div class="checkout__optional">
+                               (optional)
+                            </div>
+                            <div class="checkout__input-prompt">
+                                We'll only call you if there's a problem with your order.
+                            </div>
+                        </div>
+                        
+                    </div>
+                     <div class="filter__checkbox-wrapper">
+                        <div class="checkbox-wrapper">
+                                            <input type="checkbox" id="billing-address" class="checkbox" checked>
+                                            <label class="checkbox-label" for="billing-address"></label>
+                                        </div>
+
+                                        <label for="billing-address" class="filter__text-label">My billing address is the same as my delivery address
+                                            <div class="label-prompt">The billing address should match the address associated with your payment address</div>
+                                        </label>
+                                        
+                                    </div>
+                    <div class="billing-address-wrapper">
+                        <h3 class="checkout-h3">
+                   Billing address
+                </h3>
+               
+                    <div class="form-row">
+                        <label for="">Title</label>
+<!----------1. add a class "success" to "checkout__input-wrapper" to activate the state of successful completed input
+    2. add a class "error" to "checkout__input-wrapper" to activate the state of error completed input
+    ---------->
+                        <div class="checkout__input-wrapper">
+                            <input type="text">
+                            <div class="checkout__optional">
+                               (optional)
+                            </div>
+                        </div>
+                        
+                    </div>
+                     <div class="form-row">
+                        <label for="">First name</label>
+<!----------1. add a class "success" to "checkout__input-wrapper" to activate the state of successful completed input
+    2. add a class "error" to "checkout__input-wrapper" to activate the state of error completed input
+    ---------->
+                        <div class="checkout__input-wrapper">
+                            <input type="text">
+                            <div class="error-prompt">
+                               Pleas enter your first name
+                            </div>
+                        </div>
+                        
+                    </div>
+                     <div class="form-row">
+                        <label for="">Last name</label>
+<!----------1. add a class "success" to "checkout__input-wrapper" to activate the state of successful completed input
+    2. add a class "error" to "checkout__input-wrapper" to activate the state of error completed input
+    ---------->
+                        <div class="checkout__input-wrapper">
+                            <input type="text">
+                            <div class="error-prompt">
+                               Pleas enter your last name
+                            </div>
+                        </div>
+                        
+                    </div>
+                     <div class="form-row">
+                        <label for="">Post code</label>
+<!----------1. add a class "success" to "checkout__input-wrapper" to activate the state of successful completed input
+    2. add a class "error" to "checkout__input-wrapper" to activate the state of error completed input
+    ---------->
+                        <div class="checkout__input-wrapper">
+                            <input type="text">
+                            <div class="error-prompt">
+                                 Pleas enter a valid postcode
+                            </div>
+                        </div>
+                        
+                    </div>
+                     <div class="form-row">
+                        <label for="">Address Line 1</label>
+<!----------1. add a class "success" to "checkout__input-wrapper" to activate the state of successful completed input
+    2. add a class "error" to "checkout__input-wrapper" to activate the state of error completed input
+    ---------->
+                        <div class="checkout__input-wrapper">
+                            <input type="text">
+                            <div class="error-prompt">
+                                 Pleas enter a first line of your address
+                            </div>
+                        </div>
+                        
+                    </div>
+                     <div class="form-row">
+                        <label for="">Address Line 2</label>
+<!----------1. add a class "success" to "checkout__input-wrapper" to activate the state of successful completed input
+    2. add a class "error" to "checkout__input-wrapper" to activate the state of error completed input
+    ---------->
+                        <div class="checkout__input-wrapper">
+                            <input type="text">
+                            <div class="checkout__optional">
+                               (optional)
+                            </div>
+                        </div>
+                        
+                    </div>
+                     <div class="form-row">
+                        <label for="">City</label>
+<!----------1. add a class "success" to "checkout__input-wrapper" to activate the state of successful completed input
+    2. add a class "error" to "checkout__input-wrapper" to activate the state of error completed input
+    ---------->
+                        <div class="checkout__input-wrapper">
+                            <input type="text">
+                            <div class="error-prompt">
+                                 Pleas enter your city
+                            </div>
+                        </div>
+                        
+                    </div>
+                     <div class="form-row">
+                        <label for="">Country</label>
+<!----------1. add a class "success" to "checkout__input-wrapper" to activate the state of successful completed input
+    2. add a class "error" to "checkout__input-wrapper" to activate the state of error completed input
+    ---------->
+                        <div class="checkout__input-wrapper">
+                            <select name="" id="">
+                                <option value="">
+                                    UNITED KINGDOM
+                                </option>
+                                <option value="">
+                                    UNITED KINGDOM
+                                </option>
+                                <option value="">
+                                    UNITED KINGDOM
+                                </option>
+                            </select>
+                            <div class="error-prompt">
+                               Pleas choose your country
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="form-row">
+                        <label for="">Phone number</label>
+<!----------1. add a class "success" to "checkout__input-wrapper" to activate the state of successful completed input
+    2. add a class "error" to "checkout__input-wrapper" to activate the state of error completed input
+    ---------->
+                        <div class="checkout__input-wrapper checkout__input-wrapper--phone">
+                            <input type="text">
+                             <div class="checkout__optional">
+                               (optional)
+                            </div>
+                             <div class="checkout__input-prompt">
+                                We'll only call you if there's a problem with your order.
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                       <div class="filter__checkbox-wrapper">
+                        <div class="checkbox-wrapper">
+                                            <input type="checkbox" id="2" class="checkbox">
+                                            <label class="checkbox-label" for="2"></label>
+                                        </div>
+
+                                        <label for="2" class="filter__text-label">Please include me on any emails for amazing special offers and promotions.
+                                           
+                                        </label>
+                                        
+                                    </div>
+                    
+                    <button class="checkout__button" type="submit">
+                       
+                         <a href="checkout-payment.html">
+                             PAY NOW
+                        </a>
+                       
+                       
+                       
+                    </button>
+
+                </form>
+            </div>
+            <div class="col-lg-3">
+               <div class="filter__item basket__sidebar-item">
+                        <div class="filter__item-title filter__title ">
+                            YOUR ORDER
+                        </div>
+                        <div class="filter__content basket__item-content">
+                            <div class="row basket__item-content-row checkout__item-content-row">
+                                <div class="col-8">
+                                   Product
+                                </div>
+                                <div class="col-4">
+                                    Price
+                                </div>
+                            </div>
+                            <div class="row basket__item-content-row checkout__item-content-row">
+                                <div class="col-8">
+                                   <div class="checkout__product-name-wrapper">
+                                      <div class="name">
+                                          1x Standard Product Item
+                                      </div> 
+                                      <div class="ssl">
+                                          SSN: 000000
+                                      </div>
+                                   </div>
+                                </div>
+                                <div class="col-4 checkout__price">
+                                    2.49
+                                </div>
+                            </div>
+                             <div class="row basket__item-content-row checkout__item-content-row">
+                                <div class="col-8">
+                                   <div class="checkout__product-name-wrapper">
+                                      <div class="name">
+                                          1x Standard Product Item
+                                      </div> 
+                                      <div class="ssl">
+                                          SSN: 000000
+                                      </div>
+                                   </div>
+                                </div>
+                                <div class="col-4 checkout__price">
+                                    4.49
+                                </div>
+                            </div>
+                            <div class="checkout__sidebar-footer">
+                                <div class="row basket__item-content-row">
+                                <div class="col-8">
+                                    Subtotal:
+                                </div>
+                                <div class="col-4">
+                                    £47.20
+                                </div>
+                            </div>
+                            <div class="row basket__item-content-row">
+                                <div class="col-8">
+                                    Delivery:
+                                </div>
+                                <div class="col-4">
+                                    £2.49
+                                </div>
+                            </div> 
+                            <div class="row bascet__sidebar-footer">
+                                <div class="col-8">
+                                    <div class="basket__sidebar-title">
+                                        TOTAL:
+                                    </div>
+
+                                </div>
+                                <div class="col-4">
+                                    <div class="basket__sidebar-value">
+                                        £49.69
+                                    </div>
+
+                                </div>
+                            </div>
+                            </div>
+                            
+                            
+                           
+
+                           
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+    
+</section>
+<!-- ----------------end checkout ------------>  
+
+<!-- ----------------start footer ------------>
+<footer class="footer-checkout">
+    <div class="container">
+        <div class="footer-checkout__copy">All designs are © copyright of their respective owners. Web site © copyright 1999 - 2019 Stitcher Limited 7672372 </div>
+        <div>We allow for two lines just in case there is additional text that needs to go here.</div>
+    </div>
+</footer>
+<!-- ----------------end footer ------------>  
+  
+    <script src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.ddslick.min.js"></script>
+    <script src="js/product-galery.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/deliver-dropdown.js"></script>
+    <script src="js/slider-initialization.js"></script>
+    <script src="js/filter.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/range-slider.js"></script>
+    <script src="js/counter.js"></script>
+    <script src="js/basket.js"></script>
+    <script src="js/checkout.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/touch-punch.min.js"></script>
+    <script src="js/global.js"></script>
+
+</body>
+
+</html>
