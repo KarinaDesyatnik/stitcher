@@ -8,10 +8,11 @@
 
 .dd-options {
 	max-width: 80px !important;
-	max-height: 100px !important;*/
+	max-height: 68px !important;
+	overflow-y: scroll !important;
 }
 .dd-option li {
-	position: relative !important;;
+	position: relative !important;
 }
 
 .dd-selected label {
