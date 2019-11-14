@@ -18,7 +18,20 @@ var ddData = [
         value: 3,
         selected: false,
         imageSrc: "img/header-images/uk.png"
+    },
+    {
+        text: "RU",
+        value: 3,
+        selected: false,
+        imageSrc: "img/header-images/uk.png"
+    },
+    {
+        text: "RU",
+        value: 3,
+        selected: false,
+        imageSrc: "img/header-images/uk.png"
     }
+
    
 ];
 
