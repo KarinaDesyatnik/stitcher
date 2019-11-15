@@ -1,0 +1,12 @@
+.accoutn__cart-button {
+	position: static;
+}
+.account__button-column,
+.account__price-column {
+	display: flex; 
+	align-items: center;
+	justify-content: flex-start;
+}
+.account__button-column span {
+	font-size: 16px;
+}

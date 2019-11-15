@@ -163,8 +163,12 @@
 }
 .basket__item-content .row .col-8,
 .basket__item-content .row .col-4 {
-	padding-right: 0;
+	padding-right: 0px;
 	padding-left: 10px;
+}
+.basket__item-content .row .col-4 {
+	padding-right: 10px;
+	text-align: right;
 }
 .bascet__sidebar-footer {
 	border-top: 1px solid #e1e1e1;
