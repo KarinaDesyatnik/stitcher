@@ -244,6 +244,10 @@
 	font-family: 'Barlow Condensed', sans-serif;
 	font-weight: 500;
 	font-size: 30px;
+	background: #fff;
+	position: relative;
+	z-index: 99;
+	padding-right: 10px;
 }
 .basket__item-title {
 	line-height: 1.2;
