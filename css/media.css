@@ -799,6 +799,9 @@
   justify-content: flex-end;
   padding-right: 20px;
 }
+.basket__item-title {
+  min-width: 191px;
+}
 
 
 }
