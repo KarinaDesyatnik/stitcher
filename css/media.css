@@ -1731,13 +1731,22 @@
 }
 .account__price-column,
 .account__button-column {
-  position: relative;
-  transform: translate(0%, -100%);
+  margin-top: -55px;
 }
 .account__price-column {
   align-items: center;
   padding-top: 25px;
   
+}
+.wishlist__clear {
+  padding-left: 15px;
+}
+.account__footer .row {
+  justify-content: center;
+}
+.wishlist__clear .basket__footer-button {
+  font-size: 15px;
+  padding: 10px 10px;
 }
 
 
@@ -2474,6 +2483,10 @@
 }
 .filter__radio-wrapper .sidebar-delivery-price {
   padding-right: 15px;
+}
+.account__price-column,
+.account__button-column {
+  margin-top: -40px;
 }
 
 

@@ -10,3 +10,8 @@
 .account__button-column span {
 	font-size: 16px;
 }
+.account__footer .row {
+	display: flex;
+	justify-content: flex-start;
+}
+
