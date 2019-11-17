@@ -1,0 +1,18 @@
+.contact-us__form .form-row label {
+	min-width: 125px;
+}
+.contact-us__form {
+	margin-bottom: 60px;
+}
+.contact__item {
+	border-bottom: none;
+}
+.contact-us__form textarea {
+	height: 100px;
+    width: 445px;
+    border-radius: 4px;
+    background: #f2f2f2;
+    border: 1px solid #e1e1e1;
+    margin-left: 15px;
+    padding-left: 10px;
+}

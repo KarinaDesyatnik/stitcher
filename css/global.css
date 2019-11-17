@@ -195,4 +195,13 @@ h2 {
 	display: flex;
 	align-items: center;
 }
+.register-title {
+	font-size: 20px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	max-width: 720px;
+	margin: 0 auto;
+	margin-top: 67px;
+	margin-bottom: 54px;
+}
 /*----------end search popup--------*/
