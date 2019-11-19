@@ -1928,7 +1928,10 @@
 .sign-in .login-register__item {
   padding-left: 0;
 }
-
+.input {
+  width: 100% !important;
+}
+ 
 
 
 
@@ -2788,6 +2791,9 @@
   }
   .order-details__footer-wrapper .price-value {
     padding-right: 0;
+  }
+  .global__checkbox-wrapper .checkbox:checked + .checkbox-label:before {
+    top: -8px;
   }
 
 
