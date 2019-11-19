@@ -229,20 +229,24 @@
 	font-size: 16px;
 	text-decoration: none;
 	color: #4d4d4d;
-	padding-right: 10px;
-	margin-right: 10px;
+	cursor: pointer;
+	
 	position: relative;
 }
 .my-address__edit:hover {
 	color: #4d4d4d;
 	text-decoration: none;
 }
-.my-address__edit:after {
+.my-address__delete:after {
 	content: '|';
 	position: absolute;
-	right: 0;
+	left: 0;
 }
 .my-address__delete {
+	cursor: pointer;
+	position: relative;
+	padding-left: 10px;
+	margin-left: 10px;
 	cursor: pointer;
 }
 .my-address__item {
@@ -367,10 +371,13 @@
 	width: 180px;
 }
 .order-details__quantity {
-	width: 98px;
+	width: 45px;
+	text-align: right;
+
 }
 .order-details__price {
 	width: 137px;
+	text-align: right;
 }
 .order-details__total-price {
 	font-weight: 700;
@@ -404,13 +411,23 @@
 }
 .edit-address__button
  {
-	max-width: 155px;
+	max-width: 185px;
+}
+.edit-address__button a {
+	display: inline-block;
+	text-align: center;
 }
 .account__button,
 .add-new-address__button {
 	max-width: 185px;
+	cursor: pointer;
 }
+.add-new-address__button a {
+	width: 100%;
+	text-align: center;
+	display: block;
 
+}
 .register-title {
   margin-top: 25px;
   margin-bottom: 25px;
@@ -438,4 +455,24 @@
   margin: 0 auto;
   font-size: 20px;
   margin-bottom: 100px;
+}
+.checkout__button.add-new-address__button a {
+	text-align: center;
+	margin: 0 auto;
+	
+}
+.checkout__button.add-new-address__button a {
+	text-align: center;
+	
+	
+}
+#bread-crumbs {
+	display: none;
+}
+.bread-crumbs__link-wrapper.no-active a {
+	text-decoration: none;
+	color: #000;
+}
+.bread-crumbs__link-wrapper.no-active:after {
+	content: ''; 
 }

@@ -16,3 +16,14 @@
     margin-left: 15px;
     padding-left: 10px;
 }
+.personal-details__form .subject-box {
+	height: 156px;
+	overflow: hidden;
+	padding: 0 0px;
+	padding-top: 5px;
+
+
+}
+.personal-details__form .subject-box option {
+		padding: 2.5px 10px;
+}

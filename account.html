@@ -1336,8 +1336,11 @@
             <span class="bread-crumbs__link-wrapper">
             <a class="bread-crambs__link" href="">HOME</a>
         </span>
+        <span class="bread-crumbs__link-wrapper no-active" id="bread-crumbs__link-wrapper">
+            <a class="bread-crambs__link" href="">My Account</a>
+        </span>
            
-            <span class="bread-crumbs__current-page">My Account</span>
+            <span class="bread-crumbs__current-page" id="bread-crumbs">My Account</span>
 
         </div>
 
@@ -1359,11 +1362,11 @@
     </div>
 </div>            
                         <div class="account-tabs">
-                            <div class="tab-account-menu">My Account</div>
-                            <div class="tab-account-menu">Change Password</div>
-                            <div class="tab-account-menu">My addresses</div>
-                            <div class="tab-account-menu">My Wishlist</div>
-                            <div class="tab-account-menu">Order history</div>
+                            <div class="tab-account-menu" id="my-account">My Account</div>
+                            <div class="tab-account-menu" id="change-password">Change Password</div>
+                            <div class="tab-account-menu" id="my-address">My addresses</div>
+                            <div class="tab-account-menu" id="my-wishlist">My Wishlist</div>
+                            <div class="tab-account-menu" id="order-history">Order history</div>
                             <div class="tab-account-menu"><a href="index.html">Sign Out</a></div>
                         </div>
                        
@@ -1502,7 +1505,7 @@
                         
                     </div>
                      <div class="form-row">
-                        <label for="">Email Address </label>
+                        <label for="">Email address </label>
 <!----------1. add a class "success" to "checkout__input-wrapper" to activate the state of successful completed input
     2. add a class "error" to "checkout__input-wrapper" to activate the state of error completed input
     ---------->
@@ -1928,16 +1931,14 @@
                 <a class="my-address__edit">
                     Edit address
                 </a>
-                <div class="my-address__delete">
-                    Delete address
-                </div>
+               
             </div>
         </div>
     </div>
          <div class="checkout__button account__button" >
                        
                          <a>
-                           Add on address
+                           Add address
                        </a>
 
                        
@@ -1994,7 +1995,7 @@
                         
                     </div>
                      <div class="form-row">
-                        <label for="">Post code</label>
+                        <label for="">Postcode</label>
 <!----------1. add a class "success" to "checkout__input-wrapper" to activate the state of successful completed input
     2. add a class "error" to "checkout__input-wrapper" to activate the state of error completed input
     ---------->
@@ -2020,7 +2021,7 @@
                         
                     </div>
                      <div class="form-row">
-                        <label for="">Address 2</label>
+                        <label for=""></label>
 <!----------1. add a class "success" to "checkout__input-wrapper" to activate the state of successful completed input
     2. add a class "error" to "checkout__input-wrapper" to activate the state of error completed input
     ---------->
@@ -2045,6 +2046,20 @@
                         </div>
                         
                     </div>
+     <div class="form-row">
+                        <label for="">County</label>
+<!----------1. add a class "success" to "checkout__input-wrapper" to activate the state of successful completed input
+    2. add a class "error" to "checkout__input-wrapper" to activate the state of error completed input
+    ---------->
+                        <div class="checkout__input-wrapper">
+                            <input type="text">
+                            <div class="error-prompt">
+                                 Pleas enter your county
+                            </div>
+                        </div>
+                        
+                    </div>
+
                      <div class="form-row">
                         <label for="">Country</label>
 <!----------1. add a class "success" to "checkout__input-wrapper" to activate the state of successful completed input
@@ -2087,7 +2102,7 @@
             <div class="checkout__button add-new-address__button">
                        
                          <a>
-                             Add on address
+                             Add address
                         </a>
                        
                        
@@ -2144,7 +2159,7 @@
                         
                     </div>
                      <div class="form-row">
-                        <label for="">Post code</label>
+                        <label for="">Postcode</label>
 <!----------1. add a class "success" to "checkout__input-wrapper" to activate the state of successful completed input
     2. add a class "error" to "checkout__input-wrapper" to activate the state of error completed input
     ---------->
@@ -2170,7 +2185,7 @@
                         
                     </div>
                      <div class="form-row">
-                        <label for="">Address 2</label>
+                        <label for=""></label>
 <!----------1. add a class "success" to "checkout__input-wrapper" to activate the state of successful completed input
     2. add a class "error" to "checkout__input-wrapper" to activate the state of error completed input
     ---------->
@@ -2194,6 +2209,15 @@
                             </div>
                         </div>
                         
+                    </div>
+                    <div class="form-row">
+                        <label for="">County</label>
+                    <div class="checkout__input-wrapper">
+                            <input type="text">
+                            <div class="error-prompt">
+                                 Pleas enter your county
+                            </div>
+                        </div>
                     </div>
                      <div class="form-row">
                         <label for="">Country</label>
@@ -2237,7 +2261,7 @@
             <div class="checkout__button edit-address__button">
                        
                          <a>
-                            Edit address
+                            Update address
                         </a>
                        
                        
@@ -2442,7 +2466,7 @@
                                 </div> 
                                 <div class="order-status order-status--purple">
                                  <img src="img/account-images/purple-clock.png" alt="">
-                                   Part Dispathed
+                                   Part Despatched
                                 </div> 
                             </div>
                             <a class="orders-history__details">
@@ -2526,8 +2550,13 @@
         <div class="col-sm-4 col-6">
             <div>Delivery Address:</div>
             <div>Peter Stewart</div>
-            <div>14 Tottenham Court Road</div>
-            <div>London, England W1T 1JY</div>
+            <div>14 Tottenham Court Road
+</div>
+<div>Address 2</div>
+<div>Address 3</div>
+            <div>London, W1T 1JY</div>
+            <div>United Kingdom
+</div>
             <div>03069 990538</div>
              
 
@@ -2575,7 +2604,7 @@ Processed</div>
                                     <div>21-23 August 2019</div>
                                 </div>
                                 <div class="title-content-column">
-                                   <span>Trancking:</span>   BBB33694980GB
+                                   <span>Tracking:</span>   BBB33694980GB
                                 </div>
                             </div> 
 

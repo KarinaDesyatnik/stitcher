@@ -51,6 +51,35 @@ $('.orders-history__details').click(function(){
 	$('.orders-history').hide();
 	})
 
+$('#my-account').click(function(){
+	$('#bread-crumbs').text('My account');	
+	$('#bread-crumbs__link-wrapper').addClass('no-active');
+	$('#bread-crumbs').css('display', 'none');	
+
+	})
+
+$('#change-password').click(function(){
+	$('#bread-crumbs').text('Change password');
+	$('#bread-crumbs').css('display', 'inline-block');	
+	$('.bread-crumbs__link-wrapper').removeClass('no-active');		
+	})
+$('#my-address').click(function(){
+	$('#bread-crumbs').text('My address');
+	$('#bread-crumbs').css('display', 'inline-block');	
+	$('.bread-crumbs__link-wrapper').removeClass('no-active');
+	})
+
+$('#my-wishlist').click(function(){
+	$('#bread-crumbs').text('My wishlist');	
+	$('#bread-crumbs').css('display', 'inline-block');
+	$('.bread-crumbs__link-wrapper').removeClass('no-active');
+	})
+$('#order-history').click(function(){
+	$('#bread-crumbs').text('Order history');	
+	$('#bread-crumbs').css('display', 'inline-block');
+	$('.bread-crumbs__link-wrapper').removeClass('no-active');
+	})
+
 
 });
 

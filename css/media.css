@@ -207,10 +207,13 @@
   width: 220px;
 }
 .order-details__price {
-  width: 67px;
+  width: 112px;
 }
 .order-details__quantity {
-  width: 70px
+  width: 40px;
+}
+.sign-in__forgot-password {
+  padding-left: 115px;
 }
   
 
@@ -909,6 +912,18 @@
 .contact-us {
   padding-top: 30px;
 }
+.sign-in__forgot-password {
+  padding-left: 0;
+  width: 93%;
+
+}
+.sign-in .login-register__item {
+  padding-left: 40px;
+}
+.sign-in__forgot-password a {
+  font-size: 14px;
+}
+
 
 
 }
@@ -1895,16 +1910,23 @@
   width: 105px;
 }
 .order-details__quantity {
-  text-align: center;
+  text-align: right;
 }
 .order-details__price {
-  text-align: center;
+    text-align: right;
+    width: 98px;
 }
 .order-details__footer-wrapper {
   font-size: 16px;
 }
 .order-details__footer-wrapper .price-value {
   width: 115px;
+}
+.sign-in form  {
+  margin-bottom: 50px;
+}
+.sign-in .login-register__item {
+  padding-left: 0;
 }
 
 
@@ -2735,10 +2757,10 @@
   width: 64px;
 }*/
 .order-details__quantity {
-  width: 35px;
+  width: 30px;
 }
 .order-details__price {
-  width: 67px;
+  width: 63px;
 }
 .order-details__total-price {
   padding-right: 0;
@@ -2760,6 +2782,14 @@
   margin-bottom: 50px;
 
 }
+ .order-details__price {
+          width: 72px;
+
+  }
+  .order-details__footer-wrapper .price-value {
+    padding-right: 0;
+  }
+
 
 
 
@@ -2785,10 +2815,8 @@
 .order-derails__top-details .title-content-column span {
   margin-right: 45px;
 }
-
-
-
 }
+
 /* Custom, iPhone Retina */
 @media only screen and (max-width: 380px) {
   /**/
@@ -2900,16 +2928,21 @@
 .order-details__item-description {
   width: 64px;
 }
+ .order-details__price {
+    width: 75px;
 
 
 
 
 }
+}
 
 /* Custom, iPhone Retina */
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 360px) {
   /**/
-
+    .order-details__price {
+          width: 68px;
+}
   }
 
 /* Custom, iPhone Retina */
@@ -2930,6 +2963,10 @@
 .orders-history__header-item {
   text-align: center;
 }
+.order-details__price {
+  width: 53px;
+}
+
 
 }
 /*==========  Mobile First  ==========*/
