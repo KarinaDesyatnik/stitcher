@@ -1931,6 +1931,12 @@
 .input {
   width: 100% !important;
 }
+.signin-register {
+  margin-top: 0;
+}
+.signin-register .login-register__item {
+  padding-bottom: 0;
+}
  
 
 
