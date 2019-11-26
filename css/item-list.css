@@ -4,3 +4,7 @@
 .item-list .col-md-4, .item-list .col-md-12{
 	margin-bottom: 27px;
 }
+
+.item-list {
+	margin-top: 50px;
+}

@@ -27,7 +27,7 @@
     max-width: 100%;
   }
   .slider__items .wrapper {
-    padding-top: 191px;
+    padding-top: 109px;
   }
   .slider__items .shadow {
     bottom: 10px;
@@ -1942,6 +1942,9 @@
 }
 .product__line {
   display: none;
+}
+.item-list {
+  margin-top: 15px;
 }
  
 

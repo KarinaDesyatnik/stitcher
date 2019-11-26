@@ -9,14 +9,22 @@
 .slider__items .wrap {
 	position: relative;
 	padding-bottom: 80px;
+
 }
 .slider__items .shadow{
 	position: absolute;
 	z-index: -1;
-	bottom: 0px;		
+	bottom: 0px;
+	width: 100%;
+	left: 100%;
+	background: transparent !important;
+	box-shadow: none !important;
+
+
 }
 .slider__items .shadow img {
 	max-width: 100%;
+
 }
 .slider__items .background-img {	
 	width: 100%;
@@ -27,7 +35,7 @@
 }
 .slider__items .wrapper {
 	position: relative;
-	padding-top: 303px;
+	padding-top: 258px;
 	padding-bottom: 26px;
 	z-index: 1;
 	margin: 10px;
