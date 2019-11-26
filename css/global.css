@@ -75,6 +75,7 @@ input[type="text"] {
 .bread-crumbs {
 	padding: 30px 0;
 	font-weight: 500;
+	padding-bottom: 15px;
 }
 .bread-crumbs__title {	
 	padding-right: 8px;

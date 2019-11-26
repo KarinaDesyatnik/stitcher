@@ -105,6 +105,14 @@
 	outline: none;
 
 }
+.header__search input[type="search"]::-webkit-input-placeholder {
+	color: #fff;
+	opacity: 0.7;
+}
+.header__search input[type="search"]::-moz-placeholder {
+	color: #fff;
+	opacity: 0.7;
+}
 .header__search input::-webkit-input-placeholder {
 	color: #e589b1
 }

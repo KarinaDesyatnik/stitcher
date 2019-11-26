@@ -632,6 +632,13 @@ input[type='number'] {
 #more-aq.active {
 	display: none;
 }
+.product__line {
+	background: url('../img/header-images/line-path.png');
+	height: 7px;
+	background-repeat: repeat;
+	width: 100%;
+	margin-top: 34px;
+}
 /*.delivery__details {
 	display: none;
 }*/
